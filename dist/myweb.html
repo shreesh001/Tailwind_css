@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="myweb.css">
+</head>
+
+<body class="bg-gray-900">
+    <!-- this is a nav bar code -->
+    <nav class="px-4 mx-auto w-full h-20 bg-gray-600 flex justify-between items-center">
+        <div class="text-3xl text-black font-bold shadow-2xl">
+            TailwindCSS
+        </div>
+        <ul class="hidden  md:flex justify-between cursor-pointer text-black font-medium text-lg">
+            <li class="p-6 cursor-pointer hover:text-white">Home</li>
+            <li class="p-6 cursor-pointer hover:text-white">About us</li>
+            <li class="p-6 cursor-pointer hover:text-white">Contact us</li>
+        </ul>
+        <div
+            class="hidden w-[120px] h-8 bg-slate-50 md:flex items-center justify-center rounded-4xl cursor-pointer hover:bg-slate-300">
+            <button class="font-semibold cursor-pointer text-black">Login/SignUp</button>
+        </div>
+    </nav>
+    <!-- nav bar code completed here -->
+    <!-- image section -->
+    <div>
+        <img class="w-full h-150 hidden md:block"
+            src="https://images.unsplash.com/photo-1766224770683-8400e77db405?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="">
+        <img class="w-full md:hidden"
+            src="https://plus.unsplash.com/premium_photo-1697220866170-19a55dbfe420?q=80&w=988&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="">
+    </div>
+    <!-- image section completed -->
+    <!-- about Myself -->
+    <div class="w-full h-auto flex flex-col flex-wrap justify-center items-center text-center">
+        <div class="w-auto flex flex-col justify-center items-center text-center my-6">
+            <h1 class="text-3xl font-bold text-slate-600">About Me</h1>
+            <div class="w-40 h-1 border-2 border-yellow-500 rounded-3xl "></div>
+        </div>
+        <div class="flex flex-col md:flex-row md:flex-wrap justify-between items-center text-center">
+            <div class="px-4 w-60 flex flex-col justify-center items-center text-center">
+                <img class="w-40 h-40"
+                    src="https://imgs.search.brave.com/GS1E49DeaA0mQuF4BUDua2Nvf50-5o5MS2lFjd1pnJ8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc2Vla2xvZ28u/Y29tL2xvZ28tcG5n/LzM4LzEvY29kZWZv/cmNlcy1sb2dvLXBu/Z19zZWVrbG9nby0z/ODA5NzgucG5n"
+                    alt="">
+                <p class="text-2xl font-bold text-slate-300">CodeForces</p>
+                <p class="text-xl font-semibold text-slate-600">I wanted to reach expert at CodeForces</p>
+            </div>
+            <div class="px-4 w-60 flex flex-wrap flex-col justify-center items-center text-center">
+                <img class="w-40 h-40"
+                    src="https://imgs.search.brave.com/0DDeJC6MZTb31L5nf2XVlwhF-rk1lfah2n8EKvDcGd4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/aWNvbnM4LmNvbS9l/eHRlcm5hbC10YWwt/cmV2aXZvLWNvbG9y/LXRhbC1yZXZpdm8v/MTIwMC9leHRlcm5h/bC1sZXZlbC11cC15/b3VyLWNvZGluZy1z/a2lsbHMtYW5kLXF1/aWNrbHktbGFuZC1h/LWpvYi1sb2dvLWNv/bG9yLXRhbC1yZXZp/dm8uanBn"
+                    alt="">
+                <p class="text-2xl font-bold text-slate-300">LeetCode</p>
+                <p class="text-xl font-semibold text-slate-600">I wanted to reach Gardian at LeetCode</p>
+            </div>
+            <div class="w-60 px-4 flex flex-wrap flex-col justify-center items-center text-center">
+                <img class="w-40 h-40"
+                    src="https://imgs.search.brave.com/ZW2O7wjVvwAO1MRrVZt-fO2vnDLtKE3Zh0adI7inwpg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMuc3RhcnR1cHRh/bGt5LmNvbS8yMDIx/LzA0L2NvZGVjaGVm/LWxvZ28tc3RhcnR1/cHRhbGt5LmpwZw"
+                    alt="">
+                <p class="text-2xl font-bold text-slate-300">CodeChef</p>
+                <p class="text-xl font-semibold text-slate-600">I wanted to reach 5 Star at CodeChef</p>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
